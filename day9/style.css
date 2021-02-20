@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(161,100, 223);
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    text-align: center;
+    margin: 0;
+ } 
+ 
+.btn {
+    background-color: rebeccapurple;
+    border-radius: 5px;
+    border: nonw;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+.btn:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
